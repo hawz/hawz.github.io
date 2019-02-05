@@ -14,8 +14,6 @@
   var themeIndex = Math.floor(Math.random() * 9);
   addCss('css/themes/' + styles[themeIndex] + '.css');
   function addCss(fileName) {
-    console.log(fileName);
-
     var head = document.head;
     var link = document.createElement("link");
   
